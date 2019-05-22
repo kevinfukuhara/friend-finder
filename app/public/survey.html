@@ -242,12 +242,12 @@
     </div>
 
     <!-- Modal -->
-    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalCenterTitle" aria-hidden="true" id='best-friend-modal'>
+    <div class="modal fade" id='best-friend-modal' tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true" >
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">Your Bestfriend is...</h5>
+                    <h1 class="modal-title" id="exampleModalLongTitle">Your Bestfriend is...</h1>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -309,8 +309,9 @@
                     console.log(result);
 
                     // Set the result in the modal
-                    $("#match-name").text(result.name);
+                    $("#match-name").html(result.name);
                     $('#match-img').attr('src', result.photo);
+                    $('#match-img').css('max-width', '100%');
 
                     // Toggle the modal
                     $("#best-friend-modal").modal('toggle');
