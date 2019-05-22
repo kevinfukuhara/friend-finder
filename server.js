@@ -25,24 +25,24 @@ app.use(express.json());
 // This sets up the basic properties for our Database
 // ==============================================================================
 
-var mysql = require("mysql");
+// var mysql = require("mysql");
 
-var connection = mysql.createConnection({
-  host: "localhost",
-  port: 3306,
-  user: "root",
-  password: "12345",
-  database: "friend_find_db"
-});
+// var connection = mysql.createConnection({
+//   host: "localhost",
+//   port: 3306,
+//   user: "root",
+//   password: "12345",
+//   database: "friend_find_db"
+// });
 
-connection.connect(function(err) {
-  if (err) {
-    console.error("error connecting: " + err.stack);
-    return;
-  }
+// connection.connect(function(err) {
+//   if (err) {
+//     console.error("error connecting: " + err.stack);
+//     return;
+//   }
 
-  console.log("connected as id " + connection.threadId);
-});
+//   console.log("connected as id " + connection.threadId);
+// });
 
 
 // ================================================================================
