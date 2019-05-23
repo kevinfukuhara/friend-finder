@@ -8,7 +8,7 @@ Friend Finder project - an app leveraging node.js and express framework.
 With this current iteration of 'Friend Finder', the friends are stored in an array rather than a back-end MySQL database. 
 
 ###Below is a link to view a demo of the project:
-[Heroku Hosted App](...)
+[Heroku Hosted App](https://morning-citadel-94242.herokuapp.com/)
 
 ##Purpose of this project: 
 Friend Finder challenges the programmer to utilize express.js framework and get expeirence with routing. Additionally, the programmer is challenged to link it all to the front end/client side and integrate tradiitional Javascript/JQuery with the routing assited by express.
