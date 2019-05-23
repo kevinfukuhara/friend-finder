@@ -1,36 +1,31 @@
-# bamazon
-Store-front project - a CLI app leveraging node.js and relational databases in MySQL.
+# Friend Finder
+Friend Finder project - an app leveraging node.js and express framework.
 
 ##Project Description:
-Store-front project - a CLI app leveraging node.js and relational databases in MySQL.
-'bamazon' provides a store with the necessary CLI interfaces for:
-    - Customers to view selection of products and purchase if desired
-    - Managers to assess the inventory, addign stock and new items when desired.
-    - Supervisors to view the performance of bamazon categorized by departments.
+Friend Finder project - an app leveraging node.js and express framework.
+'Friend Finder' allows a user to take a survey and matches the user up with a 'best friend' based on how closely the answers match.
 
-The inventory is stored in MySQL Database and node.js along with node packages are used to inquire for, ingest, and display that data. 
+With this current iteration of 'Friend Finder', the friends are stored in an array rather than a back-end MySQL database. 
 
 ###Below is a link to view a demo of the project:
-[Google Drive Link](https://drive.google.com/file/d/1c32AvMCaqbxD23GWGIktZYbXjwNu4BCA/view?usp=sharing)
+[Heroku Hosted App](...)
 
 ##Purpose of this project: 
-Bamazon takes us into using a traditional database: MySQL and reinforcing what we have learned with MySQL. Bamazon teaches us how to do simple database utilization and manipulation.
+Friend Finder challenges the programmer to utilize express.js framework and get expeirence with routing. Additionally, the programmer is challenged to link it all to the front end/client side and integrate tradiitional Javascript/JQuery with the routing assited by express.
 
 ##How to get started:
 1. You'll need 'Node.js' and 'npm' installed on your machine
-2. In the folder where the 'bamazon' repo is located, run 'npm i' in your terminal to install the following reuqired packages:
-    a. inquirer
-    b. mysql
-    c. console.table
+2. In the folder where the 'friend-finder' repo is located, run 'npm i' in your terminal to install the following required packages:
+    a. express
+    b. path
 
-With all those steps complete, you should be ready to run my bamazon-app!
+With all those steps complete, you should be ready to run my the 'Friend Finder'!
 
 ##Where you can find help:
-If you are stuck witht his project, it is useful to utilize Google whenever you are unsure - 
-    a. inquirer node package
-    b. mysql node package
-    c. console.table node package
-    d. mySQL database relations (JOINs, GROUP BYs)
+If you are stuck with this project, it is useful to utilize Google whenever you are unsure - 
+    a. express routing
+    b. Bootstrap Documentation
+    c. jQuery POST
 
 Many of these Google searches will return useful code from Stackoverflow that may be useful too - what others used to implement the queries and ingest the data.
 
